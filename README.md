@@ -21,14 +21,17 @@ independently published studies.
 1. **Differential expression analysis** — DESeq2 (R/Bioconductor), with 
    explicit reference-level validation against known AD-associated genes 
    (e.g., GFAP) to confirm correct comparison directionality
-2. **Protein-protein interaction network** — constructed via STRING database 
+2. Sex was included as a covariate following PCA-based identification 
+     of sex-driven variance independent of disease status; key findings 
+     (GFAP, CXCR4) remained robust after this correction
+3. **Protein-protein interaction network** — constructed via STRING database 
    from significant DEGs (padj < 0.05, |log2FC| > 1)
-3. **Network topology and hub identification** — Cytoscape, CytoHubba plugin 
+4. **Network topology and hub identification** — Cytoscape, CytoHubba plugin 
    (Degree and Betweenness Centrality algorithms)
-4. **Functional module detection** — MCODE clustering algorithm
-5. **Functional enrichment analysis** — Gene Ontology (Biological Process) 
+5. **Functional module detection** — MCODE clustering algorithm
+6. **Functional enrichment analysis** — Gene Ontology (Biological Process) 
    and Reactome pathway analysis
-6. **Druggability assessment** — DGIdb (Drug-Gene Interaction Database)
+7. **Druggability assessment** — DGIdb (Drug-Gene Interaction Database)
 
 ## Key Findings
 - Identification of a single, functionally coherent network module 
