@@ -60,7 +60,22 @@ population it helps establish during development. This connection is
 grounded in established developmental neuroscience; its extension to 
 adult neurodegeneration is proposed here as a data-driven, testable 
 hypothesis, not a demonstrated mechanism in the AD literature reviewed.
+## Druggability Assessment
+Druggability of the hub-bottleneck gene CXCR4 was assessed via DGIdb 
+(Drug-Gene Interaction Database), which returned 60 documented 
+drug-gene interactions. Three CXCR4 antagonists are already clinically 
+approved, though for indications unrelated to neurodegeneration:
 
+| Gene  | Drug            | Status   | Original indication                          |
+|-------|-----------------|----------|-----------------------------------------------|
+| CXCR4 | Mavorixafor     | Approved | HIV (antiviral)                               |
+| CXCR4 | Motixafortide   | Approved | Antineoplastic                                |
+| CXCR4 | Plerixafor      | Approved | Antineoplastic (hematopoietic stem cell mobilization) |
+
+The availability of CXCR4 antagonists with an already characterized 
+safety profile represents a concrete drug repurposing opportunity to 
+test the neuroinflammatory hypothesis proposed in this study, with a 
+potentially faster clinical development path compared to a novel compound.
 ## Repository Structure
 
 ## Requirements
