@@ -49,12 +49,17 @@ independently published studies.
   datasets and methodologies (see References)
 
 ## Biological Interpretation
-The results support an emerging pathogenic model in which chronic 
-neuroinflammation — mediated by chemokine receptor signaling — actively 
-contributes to selective vulnerability of GABAergic interneurons, rather 
-than being a secondary consequence of neurodegeneration. CXCR4's dual role 
-as an immune cell trafficking mediator and a direct neuromodulator makes it 
-a candidate mechanistic link between these two processes.
+CXCR4/CXCL12 signaling has an established role in the developmental 
+migration and laminar positioning of somatostatin-, calretinin-, and 
+neuropeptide Y-expressing cortical GABAergic interneurons. This project 
+proposes that this axis — already mechanistically linked to the 
+establishment of GABAergic circuits during development — may become 
+aberrantly reactivated in a neuroinflammatory context in adult AD, 
+contributing to the selective vulnerability of the same interneuron 
+population it helps establish during development. This connection is 
+grounded in established developmental neuroscience; its extension to 
+adult neurodegeneration is proposed here as a data-driven, testable 
+hypothesis, not a demonstrated mechanism in the AD literature reviewed.
 
 ## Repository Structure
 
@@ -64,9 +69,24 @@ R (≥ 4.3), Bioconductor packages: `DESeq2`, `org.Hs.eg.db`,
 and MCODE plugins.
 
 ## References
-1. [Meta-analysis paper identifying CXCR4 as hub gene] – Frontiers in Genetics, 2023
-2. [PPI network study identifying CXCL12/CXCL8 as hub genes] – Genomics & Informatics, 2020
-3. [Multi-algorithm topological analysis identifying CXCR4] – 2025
+1. Frontiers in Genetics (2023) – Meta-analysis of microarray datasets 
+   identifying biological regulatory networks in Alzheimer's disease.
+   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10497115/
+2. Genomics & Informatics (2020) – Prediction of hub genes of 
+   Alzheimer's disease using a protein interaction network and 
+   functional enrichment analysis.
+   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7808865/
+3. Multi-algorithm topological PPI analysis identifying CXCR4 as an 
+   AD hub gene (2025).
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC12307957
+4. Tanaka et al. (2010) – CXCR4 is required for proper regional and 
+   laminar distribution of cortical somatostatin-, calretinin-, and 
+   neuropeptide Y-expressing GABAergic interneurons. Cerebral Cortex.
+   https://academic.oup.com/cercor/article/20/12/2810/362255
+5. Volk & Lewis (2015) – Chemokine receptors and cortical interneuron 
+   dysfunction in schizophrenia.
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC4427549/
 
 ## Author
-[Simone Marroni] 
+[Simone Marroni] [BSc in Biological Sciences,currently MSc student in 
+Advanced Biotechnologies.   ] [simone.marroni@outlook.it]
