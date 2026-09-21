@@ -21,10 +21,11 @@ stopifnot(all(rownames(pheno_data_ordered) == colnames(counts_data)))
 # rename diagnosis column for convenience
 colnames(pheno_data_ordered)[colnames(pheno_data_ordered) == "diagnosis:ch1"] <- "diagnosis"
 
-# --- 3. Build DESeq2 object ---
+# --- 3. Build DESeq2 object ---# sex included as covariate: PCA revealed sex as a major source of 
+# variance (separate from diagnosis), confirmed via metadata inspection
 dds <- DESeqDataSetFromMatrix(countData = counts_data,
                                colData = pheno_data_ordered,
-                               design = ~ diagnosis)
+                               design = ~sex + diagnosis)
 
 # set "control" as reference level (critical for correct fold-change direction)
 dds$diagnosis <- relevel(factor(dds$diagnosis), ref = "control")
